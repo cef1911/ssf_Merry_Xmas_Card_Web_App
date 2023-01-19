@@ -5,7 +5,7 @@ import altair as alt
 import pandas as pd
 
 
-st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizationa")
+st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
 
 arr = np.random.normal(1, 1, size=100)
 fig, ax = plt.subplots()
