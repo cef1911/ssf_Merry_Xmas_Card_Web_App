@@ -27,5 +27,7 @@ st.image(imagethree, caption='Amanda Franklin')
 
 st.write("Love the Franklins, Chris")
 
+st.balloons()
 
+st.snow()
 
