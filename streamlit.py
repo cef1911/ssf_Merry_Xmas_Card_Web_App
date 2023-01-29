@@ -4,11 +4,18 @@ import numpy as np
 import altair as alt
 import pandas as pd
 from PIL import Image
-import glob
 
-image = Image.open('sunrise.jpg')
+image = Image.open('amanda.jpg')
+
+image2 = Image.open('memories.png')
+
+image3 = Image.open('birthday.jpg')
 
 st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
+
+st.image(image2, caption='Amanda Franklin, Memories')
+
+st.image(image3, caption='Franklin Family')
 
 st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
 
