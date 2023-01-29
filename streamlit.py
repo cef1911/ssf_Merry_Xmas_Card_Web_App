@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import altair as alt
 import pandas as pd
+from PIL import Image
+
 
 
 st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
