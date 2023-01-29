@@ -5,11 +5,10 @@ import altair as alt
 import pandas as pd
 from PIL import Image
 
-image = Image.open('amanda.jpg')
 
-image2 = Image.open('memories.png')
 
-image3 = Image.open('birthday.jpg')
+
+image = Image.open('birthday.jpg')
 
 st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
 
