@@ -6,7 +6,7 @@ import pandas as pd
 from PIL import Image
 import glob
 
-image = Image.open('./cfimages/sunrise.jpg')
+image = Image.open('sunrise.jpg')
 
 st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
 
