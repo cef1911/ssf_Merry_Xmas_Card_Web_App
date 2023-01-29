@@ -5,7 +5,9 @@ import altair as alt
 import pandas as pd
 from PIL import Image
 
+image = Image.open('sunrise.jpg')
 
+st.image(image, caption='Sunrise by the mountains')
 
 st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
 
