@@ -6,26 +6,9 @@ import pandas as pd
 from PIL import Image
 import glob
 
-image = Image.open('cfimages/sunrise.jpg')
+image = Image.open('./cfimages/sunrise.png')
 
-import glob
-
-
-images = glob.glob("cfimages/sunrise.jpg")
-index= st.number_input('Index')
-
-if st.button('Next'):
-    index+=1
-
-
-if st.button('Prev'):
-    if index > 0
-        index = index -1
-
-image = Image.open(images[index])
-st.image(image, use_column_width=True)
-
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
 
 st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
 
