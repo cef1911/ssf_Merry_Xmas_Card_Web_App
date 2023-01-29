@@ -8,7 +8,7 @@ from PIL import Image
 
 
 
-image = Image.open("sunrise.jpg")
+image = Image.open("amanda.JPG")
 
 st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
 
