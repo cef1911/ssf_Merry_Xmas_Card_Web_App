@@ -13,9 +13,6 @@ image3 = Image.open('birthday.jpg')
 
 st.image(image, caption='Amanda Franklin, Happy Heavenly Birthday')
 
-st.image(image2, caption='Amanda Franklin, Memories')
-
-st.image(image3, caption='Franklin Family')
 
 st.write("Streamlit Play again:) creating dataframes, histogram, scatterplot, and matplotlib visualizations")
 
