@@ -4,4 +4,4 @@ streamlit
 numpy
 matplotlib
 scikit-learn
-PIL
+
