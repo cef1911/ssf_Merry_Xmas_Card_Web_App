@@ -5,7 +5,7 @@ import altair as alt
 import pandas as pd
 from PIL import Image
 
-image = Image.open('sunrise.jpg')
+image = Image.open('images/sunrise.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
 
