@@ -17,8 +17,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-font">Happy Heavenly Birthday
-            Amanda Franklin!!</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Happy Heavenly Birthday To Amanda Franklin!!</p>', unsafe_allow_html=True)
 
 
 image = Image.open("sunrise.jpeg")
