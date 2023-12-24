@@ -37,7 +37,7 @@ imagethree = Image.open("memories.png")
 st.image(imagethree, caption='Stacey Franklin')
 
 
-st.write("Love that Stacey, Chris")
+st.write("Love You Stacey, Chris")
 
 st.balloons()
 
