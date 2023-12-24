@@ -17,12 +17,12 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+#st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
 st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
-
 
 image = Image.open("twistedpizzasf.PNG")
 
-st.image(image, caption='Stacey Franklin, Happy Birthday Year')
+st.image(image, caption='Stacey Franklin, Merry Christmas 2023')
 
 st.write("Tribute To Stacey Franklin")
 
