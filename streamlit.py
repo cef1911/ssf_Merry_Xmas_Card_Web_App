@@ -17,7 +17,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-font">Happy Birthday Year To Stacey Franklin!!</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
 
 
 image = Image.open("twistedpizzasf.PNG")
